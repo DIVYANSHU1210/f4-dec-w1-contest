@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+input{
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.input-feild:focus{
+    outline: blue solid 2px;
+}
+
+
+.success{
+    outline: green solid 2px;
+}
+
+.failure{
+    outline: red solid 2px;
+}
